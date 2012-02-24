@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:orientation="vertical">
+
+    <TextView
+            android:layout_margin="10dp"
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:text="Basic Gradient"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:background="@drawable/gradient_basic"/>
+    <TextView
+            android:layout_margin="10dp"
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:text="Gradient 90"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:background="@drawable/gradient_angle"/>
+    <TextView
+            android:layout_margin="10dp"
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:text="Radial"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:background="@drawable/gradient_radial"/>
+    <TextView
+            android:layout_margin="10dp"
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:text="Sweep"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:background="@drawable/gradient_sweep"/>
+
+
+</LinearLayout>
